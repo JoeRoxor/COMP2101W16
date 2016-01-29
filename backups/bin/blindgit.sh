@@ -1,6 +1,6 @@
 #!/bin/bash
 # this script saves all changed and new files to github
 
-git add -A
-git commit -m "$1"
-git push
+git add .
+git commit -m "Third commit"
+git push -u origin master
