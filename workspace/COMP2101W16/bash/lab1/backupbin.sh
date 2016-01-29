@@ -1,6 +1,5 @@
 #!/bin/bash
-# this script saves all changed and new files to github
+# this script backs up my ~/bin to ~/backups using rsync
 
-git add -A
-git commit -m "$1"
-git push
+cd ~
+rsync -avHAXS bin backups
