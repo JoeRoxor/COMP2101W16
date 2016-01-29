@@ -1,0 +1,15 @@
+[user]
+    name = joeroxor
+    email = joe.r0x0r@gmail.com
+[core]
+    editor = nano
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = current
+[joe]
+	roxor = joeroxor
