@@ -13,6 +13,6 @@ echo "========================"
 echo "The 3 largest files in the ~/Pictures directory are:"
 du -h ~/Pictures/* | sort -hr | head -n3
 ls -lnhS ~/Pictures | grep ^- | head -3
-cd ~/Pictures
+cd ~/Pictures  
 find . -type f -exec du -s {} \; | sort -n | tail -3
 echo "========================"
