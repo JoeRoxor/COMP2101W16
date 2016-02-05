@@ -1,9 +1,13 @@
 #!/bin/bash
-# this script displays welcome to planet with variables
+# this script adds variables and then displays them according to the assignment
+
 HOSTNAME="Roxorius IV"
 MYTITLE="Supreme Galactic Emporer"
 MYNAME="Joseph Holland"
 WEEKDAY="$(date +%A)"
 
-echo Welcome to planet $HOSTNAME, $MYTITLE $MYNAME!
+echo Welcome to planet $HOSTNAME...
+sleep 1
+echo $MYTITLE $MYNAME!
+sleep 3
 echo The day of the week is $WEEKDAY
