@@ -2,11 +2,8 @@
 #This script prompts for 2 numbers then performs 5 arithmetic actions
 
 echo "Type the firt value you would like calculated then press [ENTER]"
-
 read firstnum
-
 echo "Type the second value you would like calculated then press [ENTER]"
-
 read secondnum
 
 numsum=$((firstnum + secondnum))
@@ -14,8 +11,6 @@ numdiff=$((firstnum - secondnum))
 numproduct=$((firstnum * secondnum))
 numdividend=$((firstnum / secondnum))
 numremainder=$((firstnum % secondnum))
-
-
 
 echo "Thinking..."
 sleep 2
