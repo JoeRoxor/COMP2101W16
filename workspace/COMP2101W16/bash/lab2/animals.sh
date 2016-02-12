@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script does nothing at the moment but soon...
+# This script declares the colour values, asks the user for a colour and displays the animal they are given. 
 declare colours
 colours=(red green blue) 
 declare -A animals
